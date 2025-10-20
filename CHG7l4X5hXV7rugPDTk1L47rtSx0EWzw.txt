@@ -93,7 +93,7 @@
 ## EMOJI VARIABLES
 
 {emoji:random} - Random emoji
-{emoji:time} - Time-based emoji (🕐-🕛)
+{emoji:time} - Time-based emoji (☀-🌙)
 {emoji:clock} - Clock emoji for current hour
 
 ## UTILITY FUNCTIONS
@@ -104,4 +104,5 @@
 {NF3(text)} - Apply Font Style 3 to text
 {NF4(text)} - Apply Font Style 4 to text
 {NF5(text)} - Apply Font Style 5 to text
+
 {NF6(text)} - Apply Font Style 6 to text
