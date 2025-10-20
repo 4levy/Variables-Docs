@@ -1,0 +1,107 @@
+## TIME VARIABLES
+
+{hour:1} - Hour in 24-hour format (00-23)
+{hour:2} - Hour in 12-hour format (01-12)
+{min:1} - Minutes (00-59)
+{min:2} - Minutes with AM/PM (e.g., "30 PM")
+
+## THAI DATE VARIABLES
+
+{th=date} - Day of month (1-31)
+{th=week:1} - Abbreviated weekday (e.g., "จ.", "อ.")
+{th=week:2} - Full weekday (e.g., "จันทร์", "อังคาร")
+{th=month:1} - Month number (1-12)
+{th=month:2} - Abbreviated month (e.g., "ม.ค.", "ก.พ.")
+{th=month:3} - Full month (e.g., "มกราคม", "กุมภาพันธ์")
+{th=year:1} - Thai year, 2 digits (e.g., "67")
+{th=year:2} - Thai year, 4 digits (e.g., "2567")
+
+## ENGLISH DATE VARIABLES
+
+{en=date} - Day with suffix (e.g., "1st", "2nd", "3rd")
+{en=week:1} - Abbreviated weekday (Mon, Tue, Wed)
+{en=week:2} - Full weekday (Monday, Tuesday)
+{en=month:1} - Month number (1-12)
+{en=month:2} - Abbreviated month (Jan, Feb, Mar)
+{en=month:3} - Full month (January, February)
+{en=year:1} - Year, 2 digits (e.g., "24")
+{en=year:2} - Year, 4 digits (e.g., "2024")
+
+## WEATHER VARIABLES
+
+{city} - City name
+{region} - Region/state
+{country} - Country name
+{temp:c} - Temperature in Celsius
+{temp:f} - Temperature in Fahrenheit
+{wind:kph} - Wind speed (km/h)
+{wind:mph} - Wind speed (mph)
+{wind:degree} - Wind direction in degrees
+{wind:dir} - Wind direction (N, S, E, W, etc.)
+{pressure:mb} - Pressure (millibars)
+{pressure:in} - Pressure (inches)
+{precip:mm} - Precipitation (millimeters)
+{precip:in} - Precipitation (inches)
+{gust:kph} - Wind gust speed (km/h)
+{gust:mph} - Wind gust speed (mph)
+{feelslike:c} - Feels like temperature (°C)
+{feelslike:f} - Feels like temperature (°F)
+{windchill:c} - Wind chill (°C)
+{windchill:f} - Wind chill (°F)
+{heatindex:c} - Heat index (°C)
+{heatindex:f} - Heat index (°F)
+{dewpoint:c} - Dew point (°C)
+{dewpoint:f} - Dew point (°F)
+{vis:km} - Visibility (kilometers)
+{vis:mi} - Visibility (miles)
+{humidity} - Humidity percentage
+{cloud} - Cloud cover percentage
+{uv} - UV index
+{co} - Carbon monoxide level
+{no2} - Nitrogen dioxide level
+{o3} - Ozone level
+{so2} - Sulfur dioxide level
+{pm2.5} - PM2.5 air quality
+{pm10} - PM10 air quality
+
+## SYSTEM VARIABLES
+
+{ping} - Discord WebSocket ping (ms)
+{patch} - Bot version
+{cpu:name} - CPU model name
+{cpu:cores} - Number of CPU cores
+{cpu:speed} - CPU speed (GHz)
+{cpu:usage} - CPU usage percentage
+{ram:usage} - RAM usage percentage
+{uptime:days} - Bot uptime (days)
+{uptime:hours} - Bot uptime (hours)
+{uptime:minutes} - Bot uptime (minutes)
+{uptime:seconds} - Bot uptime (seconds)
+
+## USER VARIABLES
+
+{user:name} - Discord username
+{user:icon} - User avatar URL
+{user:banner} - User banner URL
+
+## GUILD VARIABLES (Functions)
+
+{guild=members(GUILD_ID)} - Server member count
+{guild=name(GUILD_ID)} - Server name
+{guild=icon(GUILD_ID)} - Server icon URL
+
+## EMOJI VARIABLES
+
+{emoji:random} - Random emoji
+{emoji:time} - Time-based emoji (🕐-🕛)
+{emoji:clock} - Clock emoji for current hour
+
+## UTILITY FUNCTIONS
+
+{random(option1,option2,option3)} - Random selection from comma-separated values
+{NF1(text)} - Apply Font Style 1 to text
+{NF2(text)} - Apply Font Style 2 to text
+{NF3(text)} - Apply Font Style 3 to text
+{NF4(text)} - Apply Font Style 4 to text
+{NF5(text)} - Apply Font Style 5 to text
+{NF6(text)} - Apply Font Style 6 to text
