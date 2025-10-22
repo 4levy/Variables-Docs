@@ -1,4 +1,4 @@
-## TIME VARIABLES
+ ## TIME VARIABLES
 
 {hour:1} - Hour in 24-hour format (00-23)
 {hour:2} - Hour in 12-hour format (01-12)
@@ -104,5 +104,4 @@
 {NF3(text)} - Apply Font Style 3 to text
 {NF4(text)} - Apply Font Style 4 to text
 {NF5(text)} - Apply Font Style 5 to text
-
 {NF6(text)} - Apply Font Style 6 to text
